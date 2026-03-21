@@ -11,7 +11,7 @@ The swarm is coordinated with two primary ROS nodes:
 * `/pso_controller`: The brain of the swarm, managing particle states (position, velocity, personal bests), computing velocity updates and handling communication with the function service.
 
 <div align="center">
-  <img src="Images/rosgraph2.png" width="600" alt="ROS 2 RQT Node Graph">
+  <img src="images/rosgraph2.png" width="600" alt="ROS 2 RQT Node Graph">
   <br>
   <sup><strong>System Topology:</strong> Relationship between the <code>/pso_controller</code>, the <code>/function_service</code>, and the resulting telemetry topics.</sup>
 </div>
@@ -43,19 +43,19 @@ Each benchmark was tested with a swarm size of 10 over 100 epochs. The plots bel
 ### Rastrigin Function
 *Demonstrates the swarm getting trapped in local minima due to the rough landscape and small swarm size.*
 <div align="center">
-  <img src="Images/rastrigin.png" width="800" alt="Rastrigin PSO Convergence">
+  <img src="images/rastrigin.png" width="800" alt="Rastrigin PSO Convergence">
 </div>
 
 ### Rosenbrock Function
 *Shows the "velocity burst" characteristic of the swarm navigating the steep valley walls.*
 <div align="center">
-  <img src="Images/rosenbrock.png" width="800" alt="Rosenbrock PSO Convergence">
+  <img src="images/rosenbrock.png" width="800" alt="Rosenbrock PSO Convergence">
 </div>
 
 ### Sphere Function
 *The baseline for ideal convergence; shows the smoothest decay in velocity components.*
 <div align="center">
-  <img src="Images/sphere.png" width="800" alt="Sphere PSO Convergence">
+  <img src="images/sphere.png" width="800" alt="Sphere PSO Convergence">
 </div>
 
 ## Project Structure
