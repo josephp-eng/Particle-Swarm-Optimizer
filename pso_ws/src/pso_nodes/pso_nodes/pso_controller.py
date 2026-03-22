@@ -1,4 +1,11 @@
 #!/usr/bin/env python3
+
+# Particle Swarm centralized in this controller
+# Utilizes Evaluate2D service, handles inertia weight, cognitive gain, social gain for each function
+# in function_service.py
+# Joey P
+# 12/12/25
+
 import math
 import random
 from typing import Tuple, List
