@@ -70,7 +70,7 @@ Each benchmark was tested with a swarm size of 10 over 100 epochs. The plots bel
 ## How to Run
 1. Source your ROS 2 Jazzy environment.
 2. Build the workspace:
-```
+```bash
 colcon build --packages-select pso_interfaces pso_nodes
 source install/setup.bash
 ```
