@@ -1,7 +1,9 @@
 # Particle Swarm Optimization (PSO) in ROS 2
 **Author:** Joseph Pokuta
 
-**Course:** Robot Operating Systems | Michigan Technological University
+**Course:** Robot Operating Systems (EE3280) | Michigan Technological University
+
+**Date:** 12/12/25
 
 Utilizes ROS to create a distributed swarm intelligence system for minimizing benchmark functions.
 
